@@ -11,7 +11,7 @@
 
 <tw-story></tw-story>
 
-<tw-storydata name="&quot;Where are you from?&quot;" startnode="1" creator="Twine" creator-version="2.3.7" ifid="C6ABD444-D9F0-4DEB-9F71-5759655305EE" zoom="1" format="Harlowe" format-version="1.2.4" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url(https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Noto+Sans+KR:wght@700&display=swap);
+<tw-storydata name="&quot;Where are you from?&quot;" startnode="1" creator="Twine" creator-version="2.3.5" ifid="C6ABD444-D9F0-4DEB-9F71-5759655305EE" zoom="1" format="Harlowe" format-version="1.2.4" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url(https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Noto+Sans+KR:wght@700&display=swap);
  
 body, tw-story
 {
@@ -26,7 +26,12 @@ font-size: 40px;
 
 .smaller {
 font-size: 15px;
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Start" tags="" position="24,18" size="100,100">&lt;div class = &quot;explanation&quot;&gt;Hello!&lt;/div&gt; 
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Start" tags="" position="24,18" size="100,100">헤드셋이나 이어폰을 끼고 들어주세요.
+없다면 소리를 켜고 들어주세요. 놓쳤다면 F5를 눌러 새로 고침해주세요~
+마지막에 자신의 반 번호 이름 등 설문조사 페이지까지 진행하면 됩니다.
+굿럭!!
+
+&lt;div class = &quot;explanation&quot;&gt;Hello!&lt;/div&gt; 
 
 Welcome to your first lesson with me, **Mr. Davies!**
 
@@ -478,17 +483,32 @@ Now that we have been introduced, let&#39;s talk briefly about the [[textbook.-&
 
 </tw-passagedata><tw-passagedata pid="16" name="QUIZ" tags="" position="381,359" size="100,100">For this activity, you will be &lt;u&gt;scored.&lt;/u&gt;
 
+이번에 여러분이 할 활동에 대해 설명할게요.
+
 
 Click on a symbol below to reveal a letter.
 
+특수문자를 누르면 아래의 글씨가 나타납니다.
+
+
 For each symbol you click, you get 1 point.
+
+여러분이 클릭하는 각각의 특수문자가 1점이예요.
+
 
 Try and guess the //Country Name// without clicking all the symbols.
 
-In this activity a //High Score// is &lt;u&gt;bad.&lt;/u&gt; 
+모든 버튼을 누르기 전에 나라 이름을 추측해 봅시다.
 
+ 
+In this activity a //High Score// is &lt;u&gt;bad.&lt;/u&gt;
+
+점수가 낮을수록 좋아요.
+
+ 
 When you think you know the answer, click the &quot;reveal&quot; button below and count your points.
 
+정답을 알면 아래의 “reveal”버튼을 눌러 확인하고 점수를 계산하세요.
 
 
 &lt;div class = &quot;explanation&quot;&gt;
@@ -586,9 +606,7 @@ Total points: (print: $answer)
 
 &lt;u&gt;Reveal&lt;/u&gt;
 (clickreplace: &quot;Reveal&quot;)[France.
-[[&lt;img src=&quot;images/franceflag.png&quot; width=&quot;500&quot; height=&quot;300&quot;&gt;-&gt;Next4]]]</tw-passagedata><tw-passagedata pid="20" name="GOOGLEFORM" tags="" position="750,610" size="100,100">&lt;iframe src=&quot;https://docs.google.com/forms/d/e/1FAIpQLScsTHLcjZ6T9YxdL-CA9pEgemt_9VlC7ELvVljZPGSnwTMhUg/viewform?embedded=true&quot; width=&quot;640&quot; height=&quot;740&quot; frameborder=&quot;0&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot;&gt;로드 중…&lt;/iframe&gt;
-
-</tw-passagedata><tw-passagedata pid="21" name="Next4" tags="" position="495,245" size="100,100">(set: $answer to (prompt: &quot;Enter Total Points:&quot;))
+[[&lt;img src=&quot;images/franceflag.png&quot; width=&quot;500&quot; height=&quot;300&quot;&gt;-&gt;Next4]]]</tw-passagedata><tw-passagedata pid="20" name="GOOGLEFORM" tags="" position="750,610" size="100,100">&lt;iframe src=&quot;https://docs.google.com/forms/d/e/1FAIpQLSclAWe_QdmebceqIZ-cZh1KrpsqpMyvl_qC_phLZCdC-Ebc-g/viewform?embedded=true&quot; width=&quot;640&quot; height=&quot;986&quot; frameborder=&quot;0&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot;&gt;로드 중…&lt;/iframe&gt;</tw-passagedata><tw-passagedata pid="21" name="Next4" tags="" position="495,245" size="100,100">(set: $answer to (prompt: &quot;Enter Total Points:&quot;))
 
 Total points: (print: $answer)
 
